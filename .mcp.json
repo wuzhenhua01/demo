@@ -9,8 +9,8 @@
     "playwright": {
       "command": "npx",
       "args": [
-        "-y",
-        "@microsoft/mcp-server-playwright"
+        "@playwright/mcp@latest",
+        "--browser=chrome"
       ]
     }
   }
