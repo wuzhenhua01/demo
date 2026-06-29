@@ -32,6 +32,10 @@
   "xml.format.preservedNewlines": 1,
   "xml.format.joinCDATALines": true,
   "xml.format.joinCommentLines": true,
+  "[xml]": {
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true
+  },
   // for trae
   "workbench.colorTheme": "Light",
   "java.configuration.updateBuildConfiguration": "automatic",

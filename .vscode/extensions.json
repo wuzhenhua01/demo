@@ -9,6 +9,8 @@
     "mtxr.sqltools",
     "mtxr.sqltools-driver-mysql",
     "mechatroner.rainbow-csv",
-    "pomdtr.excalidraw-editor"
+    "pomdtr.excalidraw-editor",
+    "redhat.vscode-xml",
+    "esbenp.prettier-vscode"
   ]
 }
