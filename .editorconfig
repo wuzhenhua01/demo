@@ -17,3 +17,12 @@ indent_size = 4
 [*.scala]
 indent_style = space
 indent_size = 2
+
+[*.json]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+
+[*.xml]
+indent_style = space
+indent_size = 2
