@@ -1,6 +1,8 @@
 ## 目录结构
 
 - Gradle/Maven 项目根目录 **MUST** 仅包含构建配置文件及项目级文档。
+- 项目根目录 **MUST** 存在 `.codegraph` 目录，如果不存在，先执行 `codegraph init -i`。
+
 
 ## 本地环境
 
