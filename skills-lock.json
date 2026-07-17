@@ -1,6 +1,42 @@
 {
   "version": 1,
   "skills": {
+    "brainstorming": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/brainstorming/SKILL.md",
+      "computedHash": "c3ef11264b2cb82317c3c6e2293f6d7f1d60884db0f4997d6fab833551f81062"
+    },
+    "chinese-code-review": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/chinese-code-review/SKILL.md",
+      "computedHash": "024761a666ca6191c7290013ba670d79e4a3bf5d1fee28f0278a741c9217d947"
+    },
+    "chinese-commit-conventions": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/chinese-commit-conventions/SKILL.md",
+      "computedHash": "e167b2ca82c670857d895a9f5bdd2dd67d494b06cf59a8af373a82164ce0610d"
+    },
+    "chinese-documentation": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/chinese-documentation/SKILL.md",
+      "computedHash": "912f018335769e4ca30f685377812dc4163e8c318ddcc820d5ca2d7b76eafc9a"
+    },
+    "chinese-git-workflow": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/chinese-git-workflow/SKILL.md",
+      "computedHash": "5deec4b39119c37fc2907694f3732383aeda041de840dcce76db0c3cdfdd94d7"
+    },
+    "dispatching-parallel-agents": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/dispatching-parallel-agents/SKILL.md",
+      "computedHash": "8e53cf7a64c1a6aa9fe3a227c04be13fb877ce0436aa7101a3c2193aa5cb7e8f"
+    },
     "docx": {
       "source": "anthropics/skills",
       "sourceType": "github",
@@ -12,6 +48,18 @@
       "sourceType": "github",
       "skillPath": "skills/engineering/domain-modeling/SKILL.md",
       "computedHash": "e6359b331464587c59ce6e7f38bae8cea119eab21c46895f901d8ca632252b35"
+    },
+    "executing-plans": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/executing-plans/SKILL.md",
+      "computedHash": "ed71ac42b763f2e51d635082b2921c0ca49ecf4cec59fa358fa5fe91f4002fb1"
+    },
+    "finishing-a-development-branch": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/finishing-a-development-branch/SKILL.md",
+      "computedHash": "c81d12dd6daa0352a248984d7633e2cbd0eeef54690c2ef46b2834421fe73b2a"
     },
     "grill-with-docs": {
       "source": "vinvcn/mattpocock-skills-zh-cn",
@@ -31,11 +79,83 @@
       "skillPath": "skills/lark-base/SKILL.md",
       "computedHash": "75d87e2134fdae7d759d4df7ae0f96a4ddaa181bc590c5d190eaa8d94b39852f"
     },
+    "mcp-builder": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/mcp-builder/SKILL.md",
+      "computedHash": "18c09ed6d5be468c388df225770a9a9b971b7c82e33f1954d59d65ec16819a64"
+    },
     "pdf": {
       "source": "anthropics/skills",
       "sourceType": "github",
       "skillPath": "skills/pdf/SKILL.md",
       "computedHash": "cfbc539377088ca7e44a813b30c306327385bbd973cd7a721e1743f60837dd62"
+    },
+    "receiving-code-review": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/receiving-code-review/SKILL.md",
+      "computedHash": "3df9f4569ae114d784fc95a669e3b901fc722cce019fd13e9faab35cb8ab7a2d"
+    },
+    "requesting-code-review": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/requesting-code-review/SKILL.md",
+      "computedHash": "e462855da57fa971875b69f13112ec56fb6022502328583f31d052c97f7de82a"
+    },
+    "subagent-driven-development": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/subagent-driven-development/SKILL.md",
+      "computedHash": "c9fe64053ea60b9729b71314f8836c65ce87838f2d0cb8e88be4de13732742bc"
+    },
+    "systematic-debugging": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/systematic-debugging/SKILL.md",
+      "computedHash": "68b1cb7419ea46bfcef621a63a994dacb1559e1878803461d6699a70dbcaef83"
+    },
+    "test-driven-development": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/test-driven-development/SKILL.md",
+      "computedHash": "a84d1b2269db78afcaedbc3c9d1646e9cc56d7f0651a4cffec5e97aae0951387"
+    },
+    "using-git-worktrees": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/using-git-worktrees/SKILL.md",
+      "computedHash": "4d7f8eb0059635a8a4bc2de65f39232b3ec33ef009513dc20b523552ef54f112"
+    },
+    "using-superpowers": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/using-superpowers/SKILL.md",
+      "computedHash": "5afb8d0ca4b434ffc6dc6373f1ae891e7bc3b0403904d1e51435dae1bb755ee0"
+    },
+    "verification-before-completion": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/verification-before-completion/SKILL.md",
+      "computedHash": "492c8d82d52f70f87bf3d5fbedf3bb8baaad16d4fcae86e7ec2d90c8680f4f48"
+    },
+    "workflow-runner": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-runner/SKILL.md",
+      "computedHash": "939935bd2cac89c76a75bb9009edf1a0a8c3cd32660668db49145f377da7273a"
+    },
+    "writing-plans": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/writing-plans/SKILL.md",
+      "computedHash": "43257b44a402a80382a3b662d4d97b0ae604beac623a6065ac06b3fb08508879"
+    },
+    "writing-skills": {
+      "source": "jnmetacode/superpowers-zh",
+      "sourceType": "github",
+      "skillPath": "skills/writing-skills/SKILL.md",
+      "computedHash": "a0289b33c9c7e9400327c22097ef95364e3eac7148d1157a7079ceaaa39dfa1c"
     },
     "xlsx": {
       "source": "anthropics/skills",
