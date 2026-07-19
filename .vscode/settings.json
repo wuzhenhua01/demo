@@ -2,7 +2,11 @@
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 1000,
   "files.exclude": {
-    "**/.git": false
+    "**/.DS_Store": false,
+    "**/.git": false,
+    "**/.hg": false,
+    "**/.svn": false,
+    "**/Thumbs.db": false
   },
   "editor.formatOnSave": true,
   "editor.formatOnPaste": false,
