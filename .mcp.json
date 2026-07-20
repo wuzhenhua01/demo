@@ -21,6 +21,12 @@
         "--browser=chrome"
       ]
     },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "chrome-devtools-mcp@latest"
+      ]
+    },
     "postgres": {
       "command": "npx",
       "args": [

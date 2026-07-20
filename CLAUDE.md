@@ -18,7 +18,7 @@
 
 > 调用工具说明:
 > - npm 包的一次性执行 **MUST** 使用 `npx`（如 `npx @fission-ai/openspec`），项目依赖安装使用 `npm install`。
-> - Python 相关操作 **MUST** 通过 uv 调用，uv/uvx 命令位于 `/cluster/uv` 目录下。
+> - **MUST** 使用 `uv` 进行 Python 环境管理与代码运行，而不是直接使用 pip 或 python 运行。uv/uvx 命令位于 `/cluster/uv` 目录下。
 > - Python 工具/包的一次性执行 **MUST** 使用 `uvx`（如 `uvx ruff check`），**MUST NOT** 使用 `uv tool install` 全局安装工具或包。
 
 ## 项目构建
